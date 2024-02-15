@@ -1,0 +1,47 @@
+/* h1[class] {
+  color: red;
+}
+
+input[required] {
+  background-color: red;
+} */
+
+/* h1[class='cars'] {
+  color: red;
+} */
+
+/* h1[class~='cars'] {
+  color: red;
+} */
+
+/* h1[class|='cars'] {
+  color: red;
+} */
+
+/* h1[class^='cars'] {
+  color: red;
+} */
+
+/* h1[class$='cars'] {
+  color: red;
+} */
+
+/* h1[class*='ar'] {
+  color: red;
+} */
+
+/* * {
+  padding: 40px;
+} */
+
+.tooltip {
+  background-color: gray;
+  color: white;
+  border-radius: 16px;
+  padding: 16px;
+  display: none;
+}
+
+h1:hover + .tooltip {
+  display: block;
+}

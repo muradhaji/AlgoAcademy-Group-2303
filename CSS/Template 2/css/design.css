@@ -1,0 +1,30 @@
+section#design {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 144px 48px;
+  gap: 24px;
+}
+section#design > div.text {
+  flex: 1;
+}
+section#design > div.text > h3 {
+}
+section#design > div.text > p {
+}
+section#design > div.text > a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+}
+section#design > div.text > a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+section#design > div.image {
+  flex: 1;
+}
+section#design > div.image > img {
+  width: 100%;
+  border-radius: 16px;
+}

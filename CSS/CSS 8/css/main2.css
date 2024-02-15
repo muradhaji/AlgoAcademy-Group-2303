@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  background-color: black;
+}
+
+nav > a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+}
+nav div.dropdown > a {
+  text-decoration: none;
+  padding: 8px 16px;
+  display: inline-block;
+}
+nav div.dropdown.lvl1 > a {
+  color: white;
+}
+nav div.dropdown.lvl2 > a,
+nav div.dropdown.lvl3 > a {
+  color: black;
+}
+
+nav > a:hover,
+nav div.dropdown > a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav div.dropdown {
+  position: relative;
+}
+nav div.dropdown div.list {
+  background-color: white;
+  position: absolute;
+  width: 140px;
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+nav div.dropdown.lvl2 div.list,
+nav div.dropdown.lvl3 div.list {
+  left: 140px;
+  top: 0;
+}
+nav div.dropdown:hover > div.list {
+  display: block;
+}
+nav div.dropdown:hover > a {
+  background-color: white;
+  color: black;
+}
+nav div.dropdown div.list > a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  display: block;
+}
+nav div.dropdown div.list > a:hover {
+  background-color: #cccccc;
+}

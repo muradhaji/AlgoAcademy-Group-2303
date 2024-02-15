@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.scene {
+  perspective: 600px;
+
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+}
+div.cube {
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 200px;
+}
+
+div.cube > div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 200px;
+  font-size: 36px;
+  font-weight: 900;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  position: absolute;
+}
+
+div.front {
+  background-color: rgba(255, 0, 0, 0.563);
+
+  transform: translateZ(100px);
+}
+div.back {
+  background-color: rgba(0, 128, 0, 0.582);
+
+  transform: rotateY(180deg) translateZ(100px);
+}
+div.left {
+  background-color: rgba(0, 0, 255, 0.557);
+
+  transform: rotateY(-90deg) translateZ(100px);
+}
+div.right {
+  background-color: rgba(255, 255, 0, 0.519);
+
+  transform: rotateY(90deg) translateZ(100px);
+}
+div.top {
+  background-color: rgba(238, 130, 238, 0.556);
+
+  transform: rotateX(90deg) translateZ(100px);
+}
+div.bottom {
+  background-color: rgba(165, 42, 42, 0.541);
+
+  transform: rotateX(-90deg) translateZ(100px);
+}

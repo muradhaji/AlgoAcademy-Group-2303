@@ -1,0 +1,32 @@
+/* List 1 */
+ul#list_wd {
+  background-color: #687eff;
+  border-radius: 8px;
+}
+
+ul#list_wd li {
+  color: #f5f7f8;
+  padding: 8px;
+}
+
+ul#list_wd li ul li {
+  background-color: #80b3ff;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+/* List 2 */
+ul#list_comp {
+  background-color: #687eff;
+  border-radius: 8px;
+  padding: 8px 8px 8px 40px;
+  list-style-type: "\1F4BB";
+}
+
+ul#list_comp li {
+  padding: 8px;
+  background-color: #80b3ff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: #f5f7f8;
+}

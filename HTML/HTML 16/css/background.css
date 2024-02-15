@@ -1,0 +1,27 @@
+/* body {
+  background-color: rgba(255, 0, 0, 0.517);
+  background-color: red;
+}
+
+h1 {
+  background-color: green;
+  border: 40px solid blue;
+  opacity: 0.5;
+} */
+
+body {
+  background-image: url(../../Lesson5/map.png);
+  background-repeat: no-repeat;
+  /* background-repeat: repeat-x;
+  background-repeat: repeat-y; */
+  /* background-position-x: left;
+  background-position-x: center; */
+  background-position-x: right;
+  /* background-position-y: top;
+  background-position-y: center; */
+  background-position-y: bottom;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}

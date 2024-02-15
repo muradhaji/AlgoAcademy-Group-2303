@@ -1,0 +1,62 @@
+.child1,
+.child2,
+.child3,
+.child4 {
+  width: 300px;
+  height: 100px;
+}
+
+body {
+  /* transform: perspective(300px); */
+  perspective: 300px;
+  transform-style: preserve-3d;
+}
+
+.child1 {
+  background-color: orangered;
+
+  /* transform: translateX(100px); */
+  /* transform: translateY(50%); */
+  /* transform: translateX(50%); */
+  /* transform: translate(50%, 50%); */
+
+  /* position: relative;
+  left: 50%; */
+
+  /* transform: translateZ(-100px); */
+  /* translate: ; */
+}
+.child2 {
+  background-color: darkcyan;
+
+  /* transform: rotate(-45deg); */
+  /* transform: rotate(1rad); */
+  /* transform: rotate(0.125turn); */
+  /* transform: rotateZ(-45deg); */
+  /* transform: rotateZ(1rad); */
+  /* transform: rotate(0.125turn); */
+  /* rotate: ; */
+
+  /* transform: rotateX(0deg); */
+  /* transform: rotateY(0deg); */
+  /* transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); */
+  transform: rotateY(345deg);
+}
+.child3 {
+  background-color: yellow;
+
+  /* transform: scaleX(2); */
+  /* transform: scaleY(-0.5); */
+  /* transform: scaleY(200%); */
+  /* transform: scale(0.5, 1.5); */
+  /* scale: ; */
+
+  transform: translateY(-100px) rotateY(35deg);
+}
+.child4 {
+  background-color: violet;
+
+  /* transform: skewX(45deg); */
+  /* transform: skewY(45deg); */
+  /* transform: skew(20deg, 30deg); */
+}

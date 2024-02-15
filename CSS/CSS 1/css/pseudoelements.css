@@ -1,0 +1,40 @@
+/* ::first-line {
+  color: red;
+}
+
+span {
+  display: inline-block;
+} */
+
+/* ::first-letter {
+  color: red;
+  font-size: 32px;
+} */
+
+/* h2.special::before {
+  content: 'Salam ';
+}
+
+h2.special::after {
+  content: '\1F680';
+} */
+
+/* ::marker {
+  color: red;
+  font-size: 40px;
+  content: '\1F680';
+} */
+
+/* ::selection {
+  background-color: red;
+  color: white;
+} */
+
+p::before,
+p::after {
+  content: '\1F680';
+}
+
+p::first-letter {
+  font-size: 48px;
+}

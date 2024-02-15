@@ -1,0 +1,50 @@
+div {
+  width: 400px;
+  height: 400px;
+  border: 20px dashed black;
+  padding: 20px;
+}
+
+/* div {
+  background-color: rgba(0, 0, 255);
+  opacity: 0.1;
+} */
+
+div {
+  /* background-image: url(../test.jpg); */
+  /* background-size: width height; */
+  /* background-size: 200px auto; */
+  /* background-size: auto 200px; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+
+  /* background-position-x: center;
+  background-position-y: center; */
+
+  /* background-position: x y; */
+  /* background-position: right bottom; */
+
+  /* overflow: auto;
+  background-attachment: fixed; */
+
+  /* background-origin: border-box; */
+  /* background-origin: padding-box; */
+  /* background-origin: content-box; */
+
+  /* background-origin: border-box;
+
+  background-clip: content-box; */
+
+  background-image: url(../test2.PNG), url(../test.jpg);
+
+  background-repeat: no-repeat;
+  background-position-x: right, left;
+  background-blend-mode: color;
+  background-blend-mode: color-burn;
+  background-blend-mode: color-dodge;
+  background-blend-mode: darken;
+  background-blend-mode: difference;
+  background-blend-mode: exclusion;
+  background-blend-mode: hard-light;
+  background-blend-mode: hue;
+}

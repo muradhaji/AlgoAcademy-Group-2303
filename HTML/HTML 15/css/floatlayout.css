@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white; 
+}
+
+header,
+footer {
+  background-color: gray;
+}
+
+nav {
+  background-color: aqua;
+  color: gray;
+  width: 30%;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav a {
+  color: gray;
+}
+
+article {
+  background-color: lightseagreen;
+  width: 70%;
+}
+
+header, footer, nav, article {
+  padding: 24px;
+}
+
+footer {
+  text-align: center;
+}
+
+nav, article {
+  float: left;
+  height: 300px;
+}
+
+section::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* footer {
+  clear: both;
+} */
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}

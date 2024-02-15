@@ -1,0 +1,49 @@
+* {
+}
+
+body {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: gray;
+}
+
+section {
+  display: flex;
+}
+
+nav {
+  background-color: aqua;
+  color: gray;
+  flex: 2;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav a {
+  color: gray;
+}
+
+article {
+  background-color: lightseagreen;
+  flex: 5;
+}
+
+header, footer, nav, article {
+  padding: 24px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+  }
+}

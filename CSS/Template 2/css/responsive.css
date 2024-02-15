@@ -1,0 +1,19 @@
+@media (max-width: 1000px) {
+  section#team > div.members {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 600px) {
+  section#about > div.features {
+    flex-direction: column;
+  }
+
+  section#design {
+    flex-direction: column;
+  }
+
+  section#team > div.members {
+    grid-template-columns: auto;
+  }
+}

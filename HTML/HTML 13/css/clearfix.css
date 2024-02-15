@@ -1,0 +1,17 @@
+.greenBorder {
+  border: 3px solid green;
+}
+
+#img1 {
+  float: left;
+}
+
+#img2 {
+  float: left;
+}
+
+.problemsiz::after {
+  content: '';
+  clear: both;
+  display: table;
+}

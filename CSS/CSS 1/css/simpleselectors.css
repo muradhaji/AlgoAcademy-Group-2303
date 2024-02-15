@@ -1,0 +1,12 @@
+p {
+  color: red;
+}
+
+h1#myHeading {
+  background-color: aquamarine;
+}
+
+div.myDiv {
+  color: white;
+  background-color: black;
+}

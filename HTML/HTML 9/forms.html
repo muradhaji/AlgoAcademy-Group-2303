@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- https://www.w3schools.com/action_page.php?fname=John&lname=Doe -->
+  <form action="https://www.w3schools.com/action_page.php" target="_blank" autocomplete="off" novalidate method="post">
+    <label for="insanadi">Adinizi daxil edin:</label> <br>
+    <input type="text" name="ad" id="insanadi" required> <br>
+
+    <label for="insansoyadi">Soyadinizi daxil edin:</label> <br>
+    <input type="text" name="soyad" id="insansoyadi" required>
+
+    <br>
+    <br>
+
+    <input type="radio" name="cinsiyyet" id="kisicinsi" value="kisi">
+    <label for="kisicinsi">Kişi</label>
+    <br>
+    <input type="radio" name="cinsiyyet" id="qadincinsi" value="qadin">
+    <label for="qadincinsi">Qadin</label>
+
+    <br>
+    <br>
+
+    <input type="checkbox" name="bildiyidil" id="engdili" value="english">
+    <label for="engdili">İngiliscə</label>
+
+    <br>
+
+    <input type="checkbox" name="bildiyidil" id="rusdili" value="rus">
+    <label for="rusdili">Rusca</label>
+
+    <br>
+
+    <input type="checkbox" name="bildiyidil" id="azdili" value="azeri">
+    <label for="azdili">Azərbaycanca</label>
+
+    <br>
+    <br>
+
+    <input type="submit" value="GONDER">
+  </form>
+
+  <!-- <form action="https://www.google.com/search" target="_blank" autocomplete="off" novalidate>
+    <input type="submit" value="GONDER">
+  </form> -->
+
+</body>
+
+</html>

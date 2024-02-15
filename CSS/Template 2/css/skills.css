@@ -1,0 +1,20 @@
+section#skills {
+  padding: 144px 48px;
+  display: flex;
+}
+section#skills > div.left {
+  flex: 1;
+}
+section#skills > div.right {
+  flex: 1;
+}
+section#skills > div.right > div.progressBar {
+  background-color: gray;
+}
+section#skills > div.right > div.progressBar > div.percentage {
+  background-color: black;
+  color: white;
+  width: 75%;
+  text-align: center;
+  padding: 4px;
+}

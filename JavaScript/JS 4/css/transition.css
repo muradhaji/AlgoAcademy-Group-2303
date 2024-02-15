@@ -1,0 +1,19 @@
+h1 {
+  background-color: darkcyan;
+  width: 200px;
+  height: 100px;
+  margin: 0;
+
+  /* transition-duration: 2s; */
+  /* transition-delay: 3s; */
+  /* transition-timing-function: cubic-bezier(1,-0.01,0,.99); */
+  /* transition-property: height, width; */
+  transition: all 0.5s cubic-bezier(1, -0.01, 0, 0.99);
+  /* transition: property duration timing-function delay; */
+}
+
+h1 {
+  width: 400px;
+  height: 200px;
+  background-color: orangered;
+}

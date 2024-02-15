@@ -1,0 +1,35 @@
+/* a.special:link {
+  color: white;
+  background-color: black;
+}
+
+a.special:visited {
+  color: white;
+  background-color: gray;
+}
+
+a.special:hover {
+  background-color: orangered;
+  color: white;
+}
+
+a.special:active {
+  background-color: aqua;
+  color: orangered;
+} */
+
+/* h1:first-child {
+  color: red;
+} */
+
+/* h1:last-child {
+  color: red;
+} */
+
+/* p:lang(en) {
+  color: red;
+} */
+
+input:focus {
+  background-color: yellow;
+}

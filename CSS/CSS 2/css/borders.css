@@ -1,0 +1,205 @@
+/* div {
+  border-style: ridge;
+}
+
+span {
+  border-style: solid;
+  font-size: 42px;
+} */
+
+.b1 {
+  border-top-style: solid;
+}
+
+.b2 {
+  border-right-style: solid;
+}
+
+.b3 {
+  border-bottom-style: solid;
+}
+
+.b4 {
+  border-left-style: solid;
+}
+
+.b5 {
+  border-block-style: solid;
+}
+
+.b6 {
+  border-block-start-style: solid;
+}
+
+.b7 {
+  border-block-end-style: solid;
+}
+
+.b8 {
+  border-inline-style: solid;
+}
+
+.b9 {
+  border-inline-start-style: solid;
+}
+
+.b10 {
+  border-inline-end-style: solid;
+}
+
+.b11 {
+  border-style: solid;
+}
+
+.b12 {
+  border-style: solid dashed;
+}
+
+.b13 {
+  border-style: solid dashed double;
+}
+
+.b14 {
+  border-style: solid dashed double groove;
+}
+
+.b15 {
+  border-style: solid;
+  border-top-width: 8px;
+}
+
+.b16 {
+  border-style: solid;
+  border-right-width: 8px;
+}
+
+.b17 {
+  border-style: solid;
+  border-bottom-width: 8px;
+}
+
+.b18 {
+  border-style: solid;
+  border-left-width: 8px;
+}
+
+.b19 {
+  border-style: solid;
+  border-block-width: 8px;
+}
+
+.b20 {
+  border-style: solid;
+  border-block-start-width: 8px;
+}
+
+.b21 {
+  border-style: solid;
+  border-block-end-width: 8px;
+}
+
+.b22 {
+  border-style: solid;
+  border-inline-width: 8px;
+}
+
+.b23 {
+  border-style: solid;
+  border-inline-start-width: 8px;
+}
+
+.b24 {
+  border-style: solid;
+  border-inline-end-width: 8px;
+}
+
+.b25 {
+  border-style: solid;
+  border-width: 10px;
+}
+
+.b26 {
+  border-style: solid;
+  border-width: 10px 20px;
+}
+
+.b27 {
+  border-style: solid;
+  border-width: 10px 20px 30px;
+}
+
+.b28 {
+  border-style: solid;
+  border-width: 10px 20px 30px 40px;
+}
+
+.b29 {
+  color: red;
+  border-style: solid;
+}
+
+.b30 {
+  border: dashed 20px red;
+}
+
+.b31 {
+  border-top: dashed 20px red;
+}
+
+.b32 {
+  border-block: dashed 20px red;
+}
+
+.b33 {
+  border-inline: dashed 20px red;
+}
+
+.b34 {
+  border: 8px solid;
+  border-radius: 16px;
+}
+
+.b35 {
+  border: 8px solid;
+  border-top-left-radius: 32px;
+}
+
+.b36 {
+  border: 8px solid;
+  border-top-right-radius: 32px;
+}
+
+.b37 {
+  border: 8px solid;
+  border-bottom-right-radius: 32px;
+}
+
+.b38 {
+  border: 8px solid;
+  border-bottom-left-radius: 32px;
+}
+
+.b39 {
+  border: 8px solid;
+  border-start-start-radius: 32px;
+}
+
+.b40 {
+  border: 8px solid;
+  border-start-end-radius: 32px;
+}
+
+.b41 {
+  border: 8px solid;
+  border-end-end-radius: 32px;
+}
+
+.b42 {
+  border: 8px solid;
+  border-end-start-radius: 32px;
+}
+
+.b42 {
+  border: 8px solid;
+  border-radius: 8px 16px 32px;
+}

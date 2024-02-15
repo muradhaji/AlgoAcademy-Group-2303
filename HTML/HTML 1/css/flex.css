@@ -1,0 +1,32 @@
+div.navigation {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* flex-direction: column; */
+  background-color: #000000;
+}
+div.navigation > a {
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+div.navigation > a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* div.navigation > a.l1 {
+  flex: 1;
+}
+div.navigation > a.l2 {
+  flex: 1;
+}
+div.navigation > a.l3 {
+  flex: 1;
+}
+div.navigation > a.l4 {
+  flex: 1;
+}
+div.navigation > a.l5 {
+  flex: 1;
+} */

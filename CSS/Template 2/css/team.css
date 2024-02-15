@@ -1,0 +1,42 @@
+section#team {
+  padding: 144px 48px;
+  text-align: center;
+}
+section#team > h3 {
+}
+section#team > p {
+}
+section#team > div.members {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 16px;
+  text-align: left;
+}
+section#team > div.members > div.member {
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+section#team > div.members > div.member > img {
+  width: 100%;
+  filter: grayscale(0.8);
+}
+section#team > div.members > div.member > div.info {
+  padding: 16px;
+}
+section#team > div.members > div.member > div.info > h3 {
+}
+section#team > div.members > div.member > div.info > p.memberPosition {
+}
+section#team > div.members > div.member > div.info > p {
+}
+section#team > div.members > div.member > div.info > a {
+  text-decoration: none;
+  color: black;
+  background-color: #f1f1f1;
+  padding: 8px 16px;
+  display: block;
+  text-align: center;
+}
+section#team > div.members > div.member > div.info > a:hover {
+  background-color: #cccccc;
+}

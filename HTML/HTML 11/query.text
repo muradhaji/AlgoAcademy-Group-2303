@@ -1,0 +1,46 @@
+Action: https://www.w3schools.com/action_page.php
+
+1)
+- text input
+- text input
+- submit button
+Query URL Example:
+fname=murad&lname=hajiyev
+
+2)
+- radio input (10-20, 20-30, 30-40)
+- checkbox (kitab, canta, defter, qelem)
+- submit button
+
+Query URL Example:
+age_interval=10-20 & products=kitab & products=canta
+
+3)
+- input type email
+- input type password
+- submit button
+
+Query URL Example:
+user_email=test@gmail.com & user_pwd=123456789
+
+4)
+- input type color
+- input type date
+- input type datetime local
+- input type time
+- input type month
+- input type week
+- submit button
+
+Query URL Example:
+fav_clr=... & my_date= ... & my_date_time= ... & my_time= ...
+my_month= ... & my_week = ...
+
+5)
+- input type file
+- input type number
+- input type range
+- submit button
+
+Query URL Example:
+chosen_file= ... & user_age= ... & imtahan_bali= ...

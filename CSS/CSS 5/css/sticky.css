@@ -1,0 +1,20 @@
+span {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  background-color: darkcyan;
+}
+
+body {
+  width: 4000px;
+}
+
+span.special {
+  background-color: orangered;
+  position: sticky;
+
+  top: 50px;
+  /* bottom: 50px; */
+  /* left: 50px; */
+  /* right: 50px; */
+}

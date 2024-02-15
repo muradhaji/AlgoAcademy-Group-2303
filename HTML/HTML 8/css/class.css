@@ -1,0 +1,99 @@
+/* h1 {
+  background-color: gray;
+} */
+
+/* h1,
+p {
+  color: white;
+} */
+
+/* p {
+  background-color: tomato;
+} */
+
+/* .bggray {
+  background-color: gray;
+} */
+
+/* .bgtomato {
+  background-color: tomato;
+} */
+
+/* .colorwhite {
+  color: white;
+} */
+
+/* .bgblue,
+.bgblueitalic {
+  background-color: blue;
+  color: white;
+}
+
+.bgblueitalic {
+  font-style: italic;
+} */
+
+/* .bgBlue {
+  background-color: blue;
+}
+
+.colorWhiteText {
+  color: white;
+}
+
+.italicText {
+  font-style: italic;
+} */
+
+/* h1 {
+  background-color: red;
+} */
+
+/* .bgRed {
+  background-color: red;
+}
+
+h1.bgRed {
+  font-style: italic;
+}
+
+p.bgRed {
+  text-decoration: underline;
+} */
+
+/* a {
+  display: inline-block;
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+} */
+
+a.button {
+  display: inline-block;
+  padding: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 24px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+}
+
+a.dangerButton {
+  background-color: red;
+}
+
+a.successButton {
+  background-color: green;
+}
+
+a.warningButton {
+  background-color: rgb(255, 187, 0);
+}
+
+a.lightGrayButton {
+  background-color: rgb(172, 172, 172);
+  color: black;
+}

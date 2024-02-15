@@ -1,0 +1,181 @@
+/* Layout */
+
+body {
+  margin: 0;
+
+  display: grid;
+  grid-template-areas:
+    'H H'
+    'A M'
+    'A F';
+  grid-template-columns: 250px auto;
+
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  grid-area: H;
+}
+aside {
+  grid-area: A;
+}
+main {
+  grid-area: M;
+  padding: 36px 16px;
+}
+footer {
+  grid-area: F;
+}
+
+/* Header */
+
+header {
+}
+header > nav.horMenu {
+  background-color: black;
+  display: flex;
+}
+header > nav.horMenu > a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 16px;
+  font-size: 18px;
+}
+header > nav.horMenu > a.active {
+  background-color: #333333;
+}
+header > nav.horMenu > a:hover {
+  background-color: white;
+  color: black;
+}
+header > nav.horMenu > a.active:hover {
+  background-color: #cccccc;
+}
+
+/* Aside */
+
+aside {
+  background-color: #f0f0f0;
+}
+aside > h3 {
+  padding: 0px 16px;
+}
+aside > nav.verMenu {
+  display: flex;
+  flex-direction: column;
+}
+aside > nav.verMenu > a {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: black;
+  font-size: 18px;
+}
+aside > nav.verMenu > a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Footer */
+
+footer {
+}
+footer > p {
+  color: white;
+  margin: 0;
+}
+footer > p.top {
+  background-color: #666666;
+  padding: 42px 16px;
+  font-size: 20px;
+}
+footer > p.bottom {
+  background-color: #333333;
+  padding: 15px 16px;
+  font-size: 15px;
+}
+footer > p.bottom > a {
+  color: white;
+}
+
+/* Pages Menu */
+
+main > nav.pagesMenu {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+main > nav.pagesMenu > a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 16px;
+  font-size: 15px;
+}
+main > nav.pagesMenu > a.active {
+  background-color: black;
+  color: white;
+}
+main > nav.pagesMenu > a:hover {
+  background-color: black;
+  color: white;
+}
+main > nav.pagesMenu > a.active:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Article */
+
+main > article {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+main > article > div.text {
+  flex: 67;
+}
+main > article > div.text > h1 {
+  color: #009688;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 10px 0px;
+}
+main > article > div.text > p {
+  font-size: 15px;
+  text-align: justify;
+}
+main > article > div.ads {
+  flex: 33;
+}
+main > article > div.ads > div.smallAd,
+main > article > div.ads > div.bigAd {
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+main > article > div.ads > div.smallAd {
+  padding: 32px 16px;
+  margin-bottom: 16px;
+}
+main > article > div.ads > div.bigAd {
+  padding: 64px 16px;
+}
+
+@media (max-width: 1000px) {
+  body {
+    grid-template-areas:
+      'H'
+      'M'
+      'F';
+    grid-template-columns: 100%;
+  }
+
+  aside {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  main > article {
+    flex-direction: column;
+  }
+}

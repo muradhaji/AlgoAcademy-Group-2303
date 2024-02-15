@@ -1,0 +1,19 @@
+h1#esasbasliq {
+  background-color: red;
+}
+
+#xeberbasliqi {
+  background-color: blue;
+}
+
+#reklambasliqi {
+  background-color: green;
+}
+
+#italic {
+  font-style: italic;
+}
+
+.italicText {
+  font-style: italic;
+}

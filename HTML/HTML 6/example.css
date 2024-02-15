@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: gray;
+  color: white;
+}
+
+tbody {
+  background-color: rgb(205, 203, 203);
+}
+
+tfoot {
+  background-color: rgb(243, 243, 71);
+}
