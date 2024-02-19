@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+div.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.parent > div.child {
+  width: 100px;
+  height: 100px;
+  background-color: darkcyan;
+  border: 2px solid black;
+}
+
+div.parent > div.child1 {
+}
+div.parent > div.child2 {
+}
+div.parent > div.child3 {
+}
+div.parent > div.child4 {
+}
+div.parent > div.child5 {
+}
+div.parent > div.child6 {
+}
+div.parent > div.child7 {
+}
+div.parent > div.child8 {
+}
+div.parent > div.child9 {
+}
