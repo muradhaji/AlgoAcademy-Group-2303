@@ -121,3 +121,130 @@
 // Example
 // getMessage(getAngleType(45, 25)) -> "iti"
 // getMessage(getAngleType(45, 25)) -> "düz"
+
+// function reverse(num) {
+//   num = String(num);
+//   let answer = '';
+//   for (i = num.length - 1; i >= 0; i--) {
+//     answer += num[i];
+//   }
+//   return Number(answer);
+// }
+
+// console.log(reverse(12345));
+// console.log(reverse(1000));
+// console.log(reverse(1001));
+
+// function reverse(num) {
+//   let answer = 0;
+
+//   while (num > 0) {
+//     answer = answer * 10 + (num % 10);
+//     num = (num - (num % 10)) / 10;
+//   }
+
+//   return answer;
+// }
+
+// console.log(reverse(12345));
+// console.log(reverse(1000));
+// console.log(reverse(1001));
+
+// -------------
+// Functions ...
+// -------------
+
+// console.log(sum(8, 5)); // works
+// Function declaration
+// function sum(a = 0, b = 0) {
+//   let result = a + b;
+//   return result;
+// }
+
+// console.log(sum(8, 5)); // not works
+// Expression function
+// let sum = function (a = 0, b = 0) {
+//   let result = a + b;
+//   return result;
+// };
+
+// console.log(sum(8, 5)); // not works
+// Arrow function
+// let sum = (a = 0, b = 0) => {
+//   let result = a + b;
+//   return result;
+// };
+
+// let sum = (a = 0, b = 0) => {
+//   return a + b;
+// };
+
+// let double = a => a * 2;
+// console.log(double(7));
+
+// let getHello = (name = 'Stranger') => `Hello ${name}`;
+// console.log(getHello());
+// console.log(getHello('John'));
+
+// console.log(sum(8, 5));
+// console.log(sum(8));
+// console.log(sum(8, undefined));
+// console.log(sum(undefined, 5));
+
+// function showOkMessage() {
+//   console.log(`You have selected OK`);
+// }
+
+// let func2 = showOkMessage;
+
+// console.log(showOkMessage);
+// console.log(func2);
+
+// func2()
+
+// let showOkMessage = function () {
+//   console.log(`You have selected OK`);
+// };
+
+// let showCancelMessage = function () {
+//   console.log(`You have selected Cancel`);
+// };
+
+function ask(question, onOk, onCancel) {
+  let answer = confirm(question);
+  answer ? onOk(1) : onCancel(0);
+}
+
+// ask('Are you married?', showOkMessage, showCancelMessage);
+
+// ask(
+//   'Are you student?',
+//   function () {
+//     console.log(`God bless you!`);
+//   },
+//   function () {
+//     console.log(`Work hard!`);
+//   }
+// );
+
+// ask(
+//   'Is yougurt black?',
+//   (x) => {
+//     console.log(x);
+//   },
+//   (x) => {
+//     console.log(x);
+//   }
+// );
+
+// -------------
+// Tasks
+// -------------
+
+// Task 1
+// console.log(reverse('asdqwe'));
+
+// Task 2
+// console.log(isPalindrome("anna")) // true
+// console.log(isPalindrome("angel")) // false
+// console.log(isPalindrome("level")) // true
