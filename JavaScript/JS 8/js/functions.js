@@ -210,10 +210,10 @@
 //   console.log(`You have selected Cancel`);
 // };
 
-function ask(question, onOk, onCancel) {
-  let answer = confirm(question);
-  answer ? onOk(1) : onCancel(0);
-}
+// function ask(question, onOk, onCancel) {
+//   let answer = confirm(question);
+//   answer ? onOk(1) : onCancel(0);
+// }
 
 // ask('Are you married?', showOkMessage, showCancelMessage);
 
@@ -248,3 +248,35 @@ function ask(question, onOk, onCancel) {
 // console.log(isPalindrome("anna")) // true
 // console.log(isPalindrome("angel")) // false
 // console.log(isPalindrome("level")) // true
+// console.log(isPalindrome("qweswq")) // true
+
+// function reverse(str) {
+//   let answer = '';
+//   for (let i = str.length - 1; i >= 0; i--) {
+//     answer += str[i];
+//   }
+//   return answer;
+// }
+
+// function isPalindrome(str) {
+//   if (str === reverse(str)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function isPalindrome(str) {
+//   for (let i = 0, j = str.length - 1; i < str.length / 2; i++, j--) {
+//     if (str[i] != str[j]) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// console.log(isPalindrome('qwekwq'));
+// console.log(isPalindrome('qwerty'));
+// console.log(isPalindrome('anna'));
+// console.log(isPalindrome('angel'));
+// console.log(isPalindrome('level'));
