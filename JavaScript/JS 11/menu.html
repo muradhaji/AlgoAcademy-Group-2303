@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #f44336;
+    }
+
+    nav {
+      display: flex;
+      background-color: #f44336;
+      justify-content: space-between;
+      box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      padding: 16px;
+      text-decoration: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    nav>a.home {
+      background-color: white;
+      color: black;
+    }
+
+    nav>a.home:hover {
+      background-color: lightgray;
+    }
+
+    nav>div#collapse {
+      display: none;
+    }
+
+    nav>div#collapse>a {
+      color: white;
+    }
+
+    nav>div#collapse>a:hover {
+      background-color: white;
+      color: black;
+    }
+
+    nav>span#bar {
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      justify-self: right;
+      cursor: pointer;
+    }
+
+    nav>span#bar:hover {
+      background-color: white;
+      color: black;
+    }
+
+    @media (min-width: 600px) {
+      nav {
+        justify-content: left;
+      }
+
+      nav>div#collapse {
+        display: flex;
+      }
+
+      nav>span#bar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#" class="home">HOME</a>
+    <div id="collapse">
+      <a href="#">LINK 1</a>
+      <a href="#">LINK 2</a>
+      <a href="#">LINK 3</a>
+      <a href="#">LINK 4</a>
+      <a href="#">LINK 4</a>
+    </div>
+    <span href="#" id="bar"><i class="fa-solid fa-bars"></i></span>
+  </nav>
+
+  <script src="https://kit.fontawesome.com/a6b87610e0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
