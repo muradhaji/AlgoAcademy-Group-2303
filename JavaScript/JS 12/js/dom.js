@@ -94,9 +94,9 @@
 // div2.append(x2);
 // // div1.append(x);
 
-let div3 = document.getElementById('mydiv3');
+// let div3 = document.getElementById('mydiv3');
 
-let fragment = new DocumentFragment();
+// let fragment = new DocumentFragment();
 
 // for (let i = 7; i <= 10; i++) {
 //   // div3.append(`<h1>Heading ${i}</h1>`);
@@ -106,7 +106,7 @@ let fragment = new DocumentFragment();
 //   fragment.append(x);
 // }
 
-fragment.append(document.getElementById('myh1'));
-fragment.append(document.getElementById('myh3'));
+// fragment.append(document.getElementById('myh1'));
+// fragment.append(document.getElementById('myh3'));
 
-div3.append(fragment);
+// div3.append(fragment);
