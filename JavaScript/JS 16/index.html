@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* body.dark {
+      background-color: black;
+    }
+
+    body.light {
+      background-color: lightgray;
+    } */
+
+    /* body.theme1 {}
+
+    body.theme2 {}
+
+    body.theme3 {} */
+  </style>
+</head>
+
+<body class="">
+  <!-- <button onclick="changeTheme()">Change theme</button> -->
+
+  <!-- <form oninput="calculate()">
+    <input type="range" id="money" min="20" max="600" step="10">
+    <input type="range" id="day" min="10" max="21" step="1">
+    <h1 id="screen"></h1>
+  </form>
+
+  <script>
+    function calculate() {
+      let percents = [1.01, 1.02, 1.03, 1.04, 1.05, 1.06, 1.07, 1.08, 1.09, 1.1, 1.11, 1.12]
+      let moneyInp = document.getElementById("money");
+      let dayInp = document.getElementById("day");
+      let total = (moneyInp.value * percents[dayInp.value - 10]).toFixed(2);
+      let answer = ((moneyInp.value * percents[dayInp.value - 10]) / dayInp.value).toFixed(2);
+      document.getElementById("screen").innerText = `Money: ${moneyInp.value}, Day: ${dayInp.value}, Total: ${total}, Monthly: ${answer}`;
+    }
+  </script> -->
+
+  <button onclick="addnewtodo()">Add new todo</button>
+
+  <div id="todoContainer">
+
+  </div>
+
+  <!-- <script src="js/cookies.js"></script> -->
+  <!-- <script src="js/storage.js"></script> -->
+  <script src="js/todo.js"></script>
+</body>
+
+</html>
