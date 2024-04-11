@@ -6,19 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    /* body.dark {
-      background-color: black;
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    body.light {
-      background-color: lightgray;
-    } */
+    div.createContainer {
+      display: flex;
+      gap: 24px;
+      margin-bottom: 24px;
+    }
 
-    /* body.theme1 {}
+    div.createContainer input {
+      flex: 7;
+      font-size: 20px;
+    }
 
-    body.theme2 {}
+    div.createContainer button {
+      flex: 3;
+      font-size: 20px;
+    }
 
-    body.theme3 {} */
+    #todoContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    #todoContainer .todo {
+      background-color: darkcyan;
+      padding: 24px;
+      display: flex;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    #todoContainer .todo .status {
+      flex: 1;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    #todoContainer .todo .content {
+      flex: 3;
+    }
+
+    #todoContainer .todo .buttons {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    #todoContainer .todo .buttons div {
+      background-color: white;
+      color: darkcyan;
+      padding: 4px;
+      user-select: none;
+      cursor: pointer;
+    }
+
+    #todoContainer .todo .buttons .edit {}
+
+    #todoContainer .todo .buttons .save {
+      display: none;
+    }
+
+    #todoContainer .todo .buttons .delete {}
   </style>
 </head>
 
@@ -42,7 +96,10 @@
     }
   </script> -->
 
-  <button onclick="addnewtodo()">Add new todo</button>
+  <div class="createContainer">
+    <input type="text" id="todoContent">
+    <button onclick="addnewtodo()">Add new todo</button>
+  </div>
 
   <div id="todoContainer">
 
