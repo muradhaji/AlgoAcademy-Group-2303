@@ -1,7 +1,7 @@
 function addnewtodo() {
   let input = document.getElementById('todoContent');
 
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
   let maxId = 0;
   for (let i = 0; i < todos.length; i++) {
     if (todos[i].id > maxId) {
@@ -23,7 +23,7 @@ function addnewtodo() {
 }
 
 function renderHTML() {
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
   let x = '';
   for (let i = 0; i < todos.length; i++) {
     x += `
@@ -51,7 +51,7 @@ function renderHTML() {
 }
 
 function deleteTodo(deleteId) {
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
   let newTodos = [];
   for (let i = 0; i < todos.length; i++) {
     if (todos[i].id != deleteId) {
@@ -64,7 +64,7 @@ function deleteTodo(deleteId) {
 }
 
 function toggleTodo(toggleId) {
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
   let newTodos = [];
   for (let i = 0; i < todos.length; i++) {
     if (todos[i].id == toggleId) {
@@ -84,7 +84,7 @@ function toggleTodo(toggleId) {
 }
 
 function editTodo(editId) {
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
 
   let content = document.getElementById(`content${editId}`);
   let input = document.getElementById(`input${editId}`);
@@ -106,7 +106,7 @@ function editTodo(editId) {
 function saveTodo(saveId) {
   let input = document.getElementById(`input${saveId}`);
 
-  let todos = JSON.parse(localStorage.getItem('todolist'));
+  let todos = JSON.parse(localStorage.getItem('todolist') || '[]');
   let newTodos = [];
 
   for (let i = 0; i < todos.length; i++) {
