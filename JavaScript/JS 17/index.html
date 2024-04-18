@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/806ad47f78.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      #prdContainer {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+      }
+      #prdContainer .prd {
+        margin: 8px;
+        padding: 8px;
+        background-color: darkcyan;
+        position: relative;
+      }
+      #prdContainer .prd img {
+        width: 100%;
+      }
+      #prdContainer .prd h2 {
+      }
+      #prdContainer .prd span {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      @media (max-width: 768px) {
+        #prdContainer {
+          grid-template-columns: 50% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="prdContainer"></div>
+
+    <script src="favorites.js"></script>
+  </body>
+</html>
